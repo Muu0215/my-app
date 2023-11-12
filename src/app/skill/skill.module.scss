@@ -1,4 +1,50 @@
 .ttl {
     text-align: center;
     font-size: 36px;
+    margin: 50px auto;
+    font-weight: 600;
+}
+
+.programmingLans {
+    display: flex;
+    justify-content: center;
+    li {
+        padding: 0 80px;
+    }
+    p {
+        text-align: center;
+        padding-top: 30px;
+        font-size: 24px;
+    }
+}
+
+.flameWorks {
+    display: flex;
+    justify-content: center;
+    li {
+        padding: 0 80px;
+    }
+    p {
+        text-align: center;
+        padding: 30px 0;
+        font-size: 24px;
+    }
+
+}
+
+.devTools {
+    display: flex;
+    justify-content: center;
+    li {
+        padding: 0 80px;
+    }
+    p {
+        text-align: center;
+        padding: 30px 0;
+        font-size: 24px;
+    }
+    &__text {
+        color: red;
+    }
+
 }

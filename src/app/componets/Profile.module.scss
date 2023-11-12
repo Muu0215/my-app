@@ -78,6 +78,7 @@
         color: #ffffff;
         background-color: #00c2bc;
         cursor: pointer;
+        border-radius: 5px;
     }
 }
 
@@ -86,10 +87,6 @@
         display: block;
         // width: 1300px;
 }
-
-// .tree_container {
-//     width: 1300px;
-// }
 
 .tree-container:before {
     position: absolute;
