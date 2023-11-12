@@ -5,7 +5,6 @@ import classes from '@/app/componets/Profile.module.scss'
 import { useState } from 'react'
 import clsx from 'clsx';
 
-
 export default function Profile() {
 
   const [open , setOpen] = useState(false);
@@ -39,8 +38,8 @@ export default function Profile() {
           <div className={classes.profile__container}>
             <Image className={classes.avatar} src="/top.jpg" alt="" width={200} height={200} />
             <p>現在、靴メーカーで勤務しています。<br />
-              2023年4月よりフロントに関わるディレクション、ライティング、<br />
-              撮影コーディングからSNS運用など幅広い業務を担当。<br />
+              2023年4月よりフロントに関わるディレクション、ライティング、
+              撮影コーディングからSNS運用など幅広い業務を担当。
               現職の自社サイト統合でページスピードが低下したことを<br />
               SPAに興味をもち現在はReact＆Next.jsを勉強中。
             </p>
