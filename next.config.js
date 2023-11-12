@@ -1,18 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+    experimental: {
+        appDir: true,
+        apiDir: true,
+    }
 }
 
 module.exports = {
-    images: {
-        remotePatterns: [
-        {
-            protocol: 'https',
-            hostname: 'dummyimage.com',
-            port: ' ',
-            pathname: '/400x400/**',
-        }
-        ]
-    }
-
-
 }
